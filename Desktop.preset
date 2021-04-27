@@ -150,9 +150,9 @@ SetVisualFXPerformance          # SetVisualFXAppearance
 # EnableTitleBarColor           # DisableTitleBarColor
 SetAppsDarkMode               # SetAppsLightMode
 # SetSystemLightMode            # SetSystemDarkMode
-# AddENKeyboard                 RemoveENKeyboard
+RemoveENKeyboard				# AddENKeyboard                 
 # EnableNumlock                 # DisableNumlock
-# DisableEnhPointerPrecision    # EnableEnhPointerPrecision
+DisableEnhPointerPrecision    # EnableEnhPointerPrecision
 # SetSoundSchemeNone            # SetSoundSchemeDefault
 # DisableStartupSound           # EnableStartupSound
 # DisableChangingSoundScheme    # EnableChangingSoundScheme
@@ -214,7 +214,7 @@ UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
 # UninstallWindowsStore         # InstallWindowsStore
 DisableXboxFeatures             # EnableXboxFeatures
-# DisableFullscreenOptims       # EnableFullscreenOptims
+DisableFullscreenOptims       # EnableFullscreenOptims
 DisableAdobeFlash               # EnableAdobeFlash
 DisableEdgePreload              # EnableEdgePreload
 DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
@@ -254,6 +254,14 @@ RemoveFaxPrinter                # AddFaxPrinter
 ### Unpinning ###
 # UnpinStartMenuTiles
 # UnpinTaskbarIcons
+
+### muschebubusche ###
+ShowUserFolderOnExplorer        # HideUserFolderOnExplorer
+EnableMarkCMouseFix             # DisableMarkCMouseFix
+AddTelemetryIPsToFirewall       # RemoveTelemetryIPsFromFirewall
+AddTelemetryToHosts             # RemoveTelemetryFromHosts
+# EnableLowRam                  # DisableLowRam
+EnableSSDTweaks                 # DisableSSDTweaks
 
 ### Auxiliary Functions ###
 WaitForKey

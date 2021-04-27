@@ -255,6 +255,14 @@ UninstallFaxAndScan           # InstallFaxAndScan
 # UnpinStartMenuTiles
 # UnpinTaskbarIcons
 
+### muschebubusche ###
+ShowUserFolderOnExplorer        # HideUserFolderOnExplorer
+EnableMarkCMouseFix             # DisableMarkCMouseFix
+AddTelemetryIPsToFirewall       # RemoveTelemetryIPsFromFirewall
+AddTelemetryToHosts             # RemoveTelemetryFromHosts
+EnableLowRam                    # DisableLowRam
+EnableSSDTweaks                 # DisableSSDTweaks
+
 ### Auxiliary Functions ###
 WaitForKey
 Restart
