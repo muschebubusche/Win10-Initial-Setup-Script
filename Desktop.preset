@@ -23,7 +23,7 @@ DisableFeedback                 # EnableFeedback
 DisableTailoredExperiences      # EnableTailoredExperiences
 DisableAdvertisingID            # EnableAdvertisingID
 DisableWebLangList              # EnableWebLangList
-# DisableBiometrics             # EnableBiometrics
+DisableBiometrics             # EnableBiometrics
 # DisableCamera                 # EnableCamera
 # DisableMicrophone             # EnableMicrophone
 DisableErrorReporting           # EnableErrorReporting
@@ -35,21 +35,21 @@ DisableWAPPush                  # EnableWAPPush
 
 ### UWP Privacy Tweaks ###
 DisableUWPBackgroundApps        # EnableUWPBackgroundApps
-# DisableUWPVoiceActivation     # EnableUWPVoiceActivation
-# DisableUWPNotifications       # EnableUWPNotifications
-# DisableUWPAccountInfo         # EnableUWPAccountInfo
-# DisableUWPContacts            # EnableUWPContacts
-# DisableUWPCalendar            # EnableUWPCalendar
-# DisableUWPPhoneCalls          # EnableUWPPhoneCalls
-# DisableUWPCallHistory         # EnableUWPCallHistory
-# DisableUWPEmail               # EnableUWPEmail
-# DisableUWPTasks               # EnableUWPTasks
-# DisableUWPMessaging           # EnableUWPMessaging
-# DisableUWPRadios              # EnableUWPRadios
-# DisableUWPOtherDevices        # EnableUWPOtherDevices
-# DisableUWPDiagInfo            # EnableUWPDiagInfo
-# DisableUWPFileSystem          # EnableUWPFileSystem
-# DisableUWPSwapFile            # EnableUWPSwapFile
+DisableUWPVoiceActivation     # EnableUWPVoiceActivation
+DisableUWPNotifications       # EnableUWPNotifications
+DisableUWPAccountInfo         # EnableUWPAccountInfo
+DisableUWPContacts            # EnableUWPContacts
+DisableUWPCalendar            # EnableUWPCalendar
+DisableUWPPhoneCalls          # EnableUWPPhoneCalls
+DisableUWPCallHistory         # EnableUWPCallHistory
+DisableUWPEmail               # EnableUWPEmail
+DisableUWPTasks               # EnableUWPTasks
+DisableUWPMessaging           # EnableUWPMessaging
+DisableUWPRadios              # EnableUWPRadios
+DisableUWPOtherDevices        # EnableUWPOtherDevices
+DisableUWPDiagInfo            # EnableUWPDiagInfo
+DisableUWPFileSystem          # EnableUWPFileSystem
+DisableUWPSwapFile            # EnableUWPSwapFile
 
 ### Security Tweaks ###
 # SetUACLow                     # SetUACHigh
@@ -66,7 +66,7 @@ HideAccountProtectionWarn       # ShowAccountProtectionWarn
 # DisableDownloadBlocking       # EnableDownloadBlocking
 DisableScriptHost               # EnableScriptHost
 EnableDotNetStrongCrypto        # DisableDotNetStrongCrypto
-# EnableMeltdownCompatFlag      # DisableMeltdownCompatFlag
+EnableMeltdownCompatFlag      # DisableMeltdownCompatFlag
 EnableF8BootMenu                # DisableF8BootMenu
 # DisableBootRecovery           # EnableBootRecovery
 # DisableRecoveryAndReset       # EnableRecoveryAndReset
@@ -77,8 +77,8 @@ SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
 # SetUnknownNetworksPrivate     # SetUnknownNetworksPublic
 # DisableNetDevicesAutoInst     # EnableNetDevicesAutoInst
 # DisableHomeGroups             # EnableHomeGroups
-# DisableSMB1                   # EnableSMB1
-# DisableSMBServer              # EnableSMBServer
+DisableSMB1                   # EnableSMB1
+DisableSMBServer              # EnableSMBServer
 # DisableNetBIOS                # EnableNetBIOS
 # DisableLLMNR                  # EnableLLMNR
 # DisableLLDP                   # EnableLLDP
@@ -104,14 +104,14 @@ DisableSharedExperiences        # EnableSharedExperiences
 # EnableClipboardHistory        # DisableClipboardHistory
 DisableAutoplay                 # EnableAutoplay
 DisableAutorun                  # EnableAutorun
-# DisableRestorePoints          # EnableRestorePoints
-# EnableStorageSense            # DisableStorageSense
-# DisableDefragmentation        # EnableDefragmentation
-# DisableSuperfetch             # EnableSuperfetch
+DisableRestorePoints          # EnableRestorePoints
+EnableStorageSense            # DisableStorageSense
+DisableDefragmentation        # EnableDefragmentation
+DisableSuperfetch             # EnableSuperfetch
 # DisableIndexing               # EnableIndexing
 # DisableRecycleBin             # EnableRecycleBin
 EnableNTFSLongPaths             # DisableNTFSLongPaths
-# DisableNTFSLastAccess         # EnableNTFSLastAccess
+DisableNTFSLastAccess         # EnableNTFSLastAccess
 # SetBIOSTimeUTC                # SetBIOSTimeLocal
 # EnableHibernation             # DisableHibernation
 # DisableSleepButton            # EnableSleepButton
@@ -143,14 +143,14 @@ DisableNewAppPrompt             # EnableNewAppPrompt
 # HideRecentlyAddedApps         # ShowRecentlyAddedApps
 # HideMostUsedApps              # ShowMostUsedApps
 # SetWinXMenuPowerShell         # SetWinXMenuCmd
-# SetControlPanelSmallIcons     # SetControlPanelLargeIcons     # SetControlPanelCategories
+SetControlPanelSmallIcons     # SetControlPanelLargeIcons     # SetControlPanelCategories
 DisableShortcutInName           # EnableShortcutInName
 # HideShortcutArrow             # ShowShortcutArrow
 SetVisualFXPerformance          # SetVisualFXAppearance
 # EnableTitleBarColor           # DisableTitleBarColor
-# SetAppsDarkMode               # SetAppsLightMode
+SetAppsDarkMode               # SetAppsLightMode
 # SetSystemLightMode            # SetSystemDarkMode
-# AddENKeyboard                 # RemoveENKeyboard
+# AddENKeyboard                 RemoveENKeyboard
 # EnableNumlock                 # DisableNumlock
 # DisableEnhPointerPrecision    # EnableEnhPointerPrecision
 # SetSoundSchemeNone            # SetSoundSchemeDefault
@@ -223,8 +223,8 @@ DisableFirstLogonAnimation      # EnableFirstLogonAnimation
 DisableMediaSharing             # EnableMediaSharing
 # DisableMediaOnlineAccess      # EnableMediaOnlineAccess
 # EnableDeveloperMode           # DisableDeveloperMode
-# UninstallMediaPlayer          # InstallMediaPlayer
-# UninstallInternetExplorer     # InstallInternetExplorer
+UninstallMediaPlayer          # InstallMediaPlayer
+UninstallInternetExplorer     # InstallInternetExplorer
 # UninstallWorkFolders          # InstallWorkFolders
 # UninstallHelloFace            # InstallHelloFace
 # UninstallMathRecognizer       # InstallMathRecognizer
